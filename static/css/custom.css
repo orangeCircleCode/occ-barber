@@ -1,0 +1,43 @@
+/* ///////////////////////////////////////////////--HEADER-- */
+/* Full Page Image Header Area */
+.header {
+  height: 100vh !important;
+  /* background-size: contain !important; */
+  /* background-position: center !important; */
+  /* background-blend-mode: overlay; */
+  background: url(/img/barber2.jpg) !important;
+}
+
+.logo {
+  max-width: 35em;
+  width: 100%;
+  padding: 2em;
+}
+.overlay {
+  position: absolute;
+  /* display: flex; */
+  /* background-size: cover; */
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #000000;
+  opacity: .6;
+  /* z-index: 2; */
+}
+.vert-text {
+  z-index: 10;
+}
+.siteTitle {
+  font-family: 'Sancreek', cursive;
+  font-size: 8em;
+  color: #ffffff;
+  opacity:.6;
+
+
+}
+.description {
+  font-family: 'Sancreek', cursive;
+  font-size: 4em;
+  color: #ffffff;
+  opacity:.6;
+
+}
