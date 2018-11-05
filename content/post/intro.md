@@ -1,11 +1,11 @@
 +++
 date = 2014-10-13T20:07:19Z
-draft = false
+draft = true
 title = ".....just around the corner"
 description = "Ceci est mon premier post \n bla bla bla"
-weight = 1
-icon = "pacman"
-groups = "services"
+weight = 2
+icon = "circlestar"
+groups = ""
 +++
 
-### Old world service in your neighbourhood.
+Old world service in your neighbourhood.
