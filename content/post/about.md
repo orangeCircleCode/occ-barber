@@ -2,7 +2,7 @@
 date = 2014-10-13T19:54:21Z
 draft = false
 title = "Our Story"
-weight = 5
+weight = 3
 icon = "circlestar"
 +++
 This is the story of our uncle George, a barber in Greece.  George was known for two things; his dedication to his craft and for the serenade customers received during their haircuts.

@@ -14,18 +14,21 @@ theme = "hugo-base-theme"
     tag = "tags"
     group = "groups"
 
-[[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-download'></i>"
-    url = "/"
-    weight = -200
-[[menu.main]]
-    name = "Services"
-    pre = "<i class='fa fa-cubes'></i>"
-    url = "/post/services/"
-    weight = -180
-[[menu.main]]
-    name = "Products"
-    pre = "<i class='fa fa-comments'></i>"
-    url = "/post/products/"
-    weight = -150
+[menu]
+
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        name = "Services"
+        url = "/post/services/"
+        weight = 2
+    [[menu.main]]
+        name = "Products"
+        url = "/post/products/"
+        weight = 3
+    [[menu.main]]
+        name = "About"
+        url = "/post/about/"
+        weight = 4

@@ -11,7 +11,7 @@
 .m-logo {
   width: 13em;
   height: auto;
-  opacity: .7;
+  opacity: .9;
 }
 
 .overlay {
@@ -30,14 +30,14 @@
   font-family: 'Sancreek', cursive;
   font-size: 9em;
   color: #ffffff;
-  opacity: .6;
+  opacity: .9;
 }
 
 .description {
   font-family: 'Lobster', cursive;
   font-size: 4em;
   color: #ffffff;
-  opacity: .6;
+  opacity: .9;
 }
 
 
@@ -76,23 +76,25 @@ i.lead-icon {
   padding: 80px 80px;
 }
 .flex-container-row {
+  background-color: #ffffff;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin: 80px 80px;
+  align-content: center;
+  align-items: center;
+  /* margin: 80px 10px; */
   height: 100%;
-  width: 100%;
+  width: 80vw;
 }
 .product{
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   width: 400px;
-  height: 400px;
+  height: auto;
   /* margin: 10px; */
   text-align: center;
   /* line-height: 75px; */
-  font-size: 20px;
-  border-right: 1px solid #000000;
-  margin-top: 20px;
+  font-size: 16px;
+  margin: 10px;
   padding: 0px;
   z-index: 100;
 }
@@ -118,7 +120,13 @@ i.lead-icon {
 #intro>div>div>div>h2 {
   font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
-
+.p-title {
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  font-size: 3em;
+  color: #000000;
+  opacity: 1;
+  padding: 30px 0px 20px 0px;
+}
 p {
   font-family: Georgia, 'Times New Roman', Times, serif !important;
   font-size: 1.8em;
