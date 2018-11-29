@@ -1,11 +1,11 @@
 baseURL = "https://occ-barber.netlify.com/"
 languageCode = "en-us"
-title = "Corner Barber Shoppe"
+title = "Corner Barber Shop"
 MetaDataFormat = ""
 theme = "hugo-base-theme"
 
 [params]
-    description = "Your Neighbourhood Barber"
+    description = "Your Neighborhood Barber"
     style = "default"
     mainIcon = "img/blogo.png"
 
@@ -18,7 +18,7 @@ theme = "hugo-base-theme"
 
     [[menu.main]]
         name = "Home"
-        url = "/"
+        url = "#"
         weight = 1
     [[menu.main]]
         name = "Services"

@@ -8,4 +8,4 @@ icon = "circlestar"
 groups = ""
 +++
 
-Old world service in your neighbourhood.
+Old world service in your neighborhood
