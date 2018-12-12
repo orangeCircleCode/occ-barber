@@ -1,149 +1,267 @@
+#main {
+	/* background: #312e2d !important; */
+	background: url(../img/gray.png) !important;
+}
+
 /* ///////////////////////////////////////////////--HEADER-- */
 /* Full Page Image Header Area */
 .header {
-  height: 100vh !important;
-  background: url(/img/background.jpg) !important;
-  background-attachment: fixed !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
+	height: 100vh !important;
+	background: url(/img/background.jpg) !important;
+	background-attachment: fixed !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
 }
 
 .m-logo {
-  width: 13em;
-  height: auto;
-  opacity: .9;
+	width: 13em;
+	height: auto;
+	opacity: .9;
 }
 
 .overlay {
-  position: absolute;
-  min-width: 100%;
-  min-height: 100%;
-  background-color: #000000;
-  opacity: .5;
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #000000;
+	opacity: .6;
 }
 
 .vert-text {
-  z-index: 10;
+	z-index: 10;
 }
 
 .siteTitle {
-  font-family: 'Sancreek', cursive;
-  font-size: 9em;
-  color: #ffffff;
-  opacity: .9;
+	font-family: 'Sancreek', cursive;
+	font-size: 8em;
+	color: #ffffff;
+	opacity: .8;
 }
 
 .description {
-  font-family: 'Lobster', cursive;
-  font-size: 4em;
-  color: #ffffff;
-  opacity: .9;
+	font-family: 'Lobster', cursive;
+	font-size: 4em;
+	color: #ffffff;
+	opacity: .8;
 }
-
-
-
-
 
 /*//////////////////////////////////////////////--HEADER-- */
 i.callout-icon,
 i.point-icon,
-i.lead-icon {
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 56px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align: middle;
-  text-align: center;
-  -webkit-transition: box-shadow 0.2s;
-  -moz-transition: box-shadow 0.2s;
-  transition: box-shadow 0.2s;
-}
+i.lead-icon {}
+
 /* ///////////////////////////////////////////////--SINGLE PAGES/*
 /* ///////////////////////////////////////////////--PRODUCTS-- */
 .flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  font-family: Georgia, 'Times New Roman', Times, serif !important;
-  background-size: cover;
-  background: url(/img/barber3.jpg) !important;
-  background-color: rgb(212, 196, 174);
-  background-attachment: fixed !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  padding: 80px 80px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	font-family: Georgia, 'Times New Roman', Times, serif !important;
+	background-size: cover;
+	background: url(/img/barber3.jpg) !important;
+	background: #312f2e;
+	background-attachment: fixed !important;
+	background-position: center !important;
+	/* background-repeat: no-repeat !important; */
+	padding: 80px 80px;
 }
+
 .flex-container-row {
-  background-color: #ffffff;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  /* margin: 80px 10px; */
-  height: 100%;
-  width: 80vw;
+	background-color: #ffffff;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin: 50px 10px;
+	height: 100%;
+	/* width: 80vw; */
 }
-.product{
-  background-color: #ffffff;
-  width: 400px;
-  height: auto;
-  /* margin: 10px; */
-  text-align: center;
-  /* line-height: 75px; */
-  font-size: 16px;
-  margin: 10px;
-  padding: 0px;
-  z-index: 100;
+
+.product {
+	background-color: #ffffff;
+	/* width: 100%; */
+	/* height: 100%; */
+	/* margin: 10px; */
+	text-align: center;
+	/* line-height: 75px; */
+	font-size: 16px;
+	margin: 10px;
+	padding: 0px;
+	z-index: 100;
 }
 
 .point {
-  font-family: Georgia, 'Times New Roman', Times, serif !important;
-  background-size: cover;
-  background: url(/img/barber3.jpg) !important;
-  background-color: rgb(212, 196, 174);
-  background-attachment: fixed !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
+	font-family: Georgia, 'Times New Roman', Times, serif !important;
+	background-size: cover !important;
+	background: url(/img/barber3.jpg) !important;
+	background-color: rgb(212, 196, 174);
+	background-attachment: fixed !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
 }
 
 .counterpoint {
-  font-family: Georgia, 'Times New Roman', Times, serif !important;
-  background: url(/img/parchment.jpg) !important;
-  opacity: .8;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
+	font-family: Georgia, 'Times New Roman', Times, serif !important;
+	background: url(/img/parchment.jpg) !important;
+	opacity: .8;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
 }
 
 #intro>div>div>div>h2 {
-  font-family: Georgia, 'Times New Roman', Times, serif !important;
-}
-.p-title {
-  font-family: Georgia, 'Times New Roman', Times, serif !important;
-  font-size: 3em;
-  color: #000000;
-  opacity: 1;
-  padding: 30px 0px 20px 0px;
-}
-p {
-  font-family: Georgia, 'Times New Roman', Times, serif !important;
-  font-size: 1.8em;
+	font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
+.p-title {
+	font-family: Georgia, 'Times New Roman', Times, serif !important;
+	font-size: 3em;
+	color: #000000;
+	opacity: 1;
+	padding: 30px 0px 20px 0px;
+}
+
+p {
+	font-family: Georgia, 'Times New Roman', Times, serif !important;
+	font-size: 1.8em;
+}
 
 /* ///////////////////////////////////////////////--FOOTER-- */
 
 #footer {
-  background: url(../img/gray.png) !important;
-  padding: 30px 0px 40px;
-  width: 100%;
-  color: #ffffff;
-  font-size: 12px;
+	background: url(../img/gray.png) !important;
+	padding: 30px 0px 40px;
+	width: 100%;
+	color: #ffffff;
+	font-size: 12px;
 }
 
 #footer>div>div>div>p {
-  color: #ffffff;
-  font-size: 1em;
+	color: #ffffff;
+	font-size: 1em;
+}
+
+/* ////////////////////////////////////////RESPONSIVE//////////////////////// */
+@media (max-width: 1280px) {
+	.siteTitle {
+		font-size: 7em;
+	}
+}
+@media (max-width: 1024px) {
+
+	.product,
+	.product img {
+		width: 50%;
+		height: auto;
+		margin: 10px 0px;
+	}
+
+	.siteTitle {
+		font-size: 6.5em;
+	}
+
+	p {
+		font-size: 1.5em;
+	}
+
+	i.callout-icon,
+	i.point-icon,
+	i.lead-icon {
+		font-size: 45px !important;
+		width: 100px !important;
+		height: 100px !important;
+		line-height: 98px !important;
+	}
+
+	.m-logo {
+		width: 11em;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.product,
+	.product img {
+		/* width: 50%; */
+		/* height: 50%; */
+		/* margin: 5px 0px; */
+		font-size: 14px;
+	}
+
+	.siteTitle {
+		font-size: 4em;
+		padding: 10px;
+	}
+
+	.description {
+		font-size: 2.5em;
+	}
+}
+
+@media (max-width: 667px) {
+	.siteTitle {
+		font-size: 4em;
+		padding: 10px;
+	}
+
+	.description {
+		font-size: 2.5em;
+	}
+
+	.p-title {
+		font-size: 30px;
+		margin: 30px 0 0 0;
+
+	}
+
+	p {
+		font-size: 1.3em;
+		margin: 10px;
+	}
+}
+
+.m-logo {
+	width: 10em;
+}
+
+@media (max-width: 420px) {
+	.siteTitle {
+		font-size: 4em;
+		padding: 0px 10px;
+	}
+
+	.description {
+		font-size: 2.5em;
+	}
+
+	.flex-container {
+		padding: 10px;
+	}
+
+	.p-title {
+		font-size: 30px;
+		margin: 30px 0 0 0;
+
+	}
+
+	p {
+		font-size: 1.3em;
+		margin: 10px;
+	}
+
+	.m-logo {
+		width: 6em;
+	}
+}
+
+@media (max-width: 320px) {
+	.siteTitle {
+		font-size: 3em;
+		padding: 0px 10px;
+	}
+
+	.description {
+		font-size: 2em;
+		padding: 10px;
+	}
 }
