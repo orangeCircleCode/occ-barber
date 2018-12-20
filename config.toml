@@ -7,28 +7,34 @@ theme = "hugo-base-theme"
 [params]
     description = "Your Neighborhood Barber"
     style = "default"
-    mainIcon = "img/blogo5.png"
+    mainIcon = "img/blogo.png"
 
 [indexes]
     category = "categories"
     tag = "tags"
     group = "groups"
 
-[menu]
 
-    [[menu.main]]
-        name = "Home"
-        url = "#"
-        weight = 1
-    [[menu.main]]
-        name = "Services"
-        url = "/post/services/"
-        weight = 2
-    [[menu.main]]
-        name = "Products"
-        url = "/post/products/"
-        weight = 3
-    [[menu.main]]
-        name = "About"
-        url = "/post/about/"
-        weight = 4
+[[menu.main]]
+	name = "Home"
+  url = "#"
+
+[[menu.main]]
+  name = "Services"
+  url = "#/services/"
+
+[[menu.main]]
+  name = "Products"
+	pre = "<i class='fa fa-desktop'></i>"
+  url = "#/products/"
+
+[[menu.main]]
+  name = "About"
+	pre = "<i class='fa fa-heart'></i>"
+	identifier = "about"
+  url = "#/about/"
+
+[[menu.main]]
+  name = "Showcase"
+  pre = "<i class='fa fa-cubes'></i>"
+  url = "/showcase/"
