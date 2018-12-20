@@ -220,6 +220,10 @@ p {
 	}
 }
 
+.m-logo {
+	width: 10em;
+}
+
 @media (max-width: 420px) {
 	.siteTitle {
 		font-size: 4em;
