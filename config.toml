@@ -7,7 +7,7 @@ theme = "hugo-base-theme"
 [params]
     description = "Your Neighborhood Barber"
     style = "default"
-    mainIcon = "img/blogo.png"
+    mainIcon = "img/blogo5.png"
 
 [indexes]
     category = "categories"

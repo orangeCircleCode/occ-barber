@@ -17,6 +17,7 @@
 	width: 10em;
 	height: auto;
 	opacity: .9;
+	color: red;
 }
 
 .overlay {
@@ -46,6 +47,7 @@
 	font-size: 4em;
 	color: #ffffff;
 	opacity: .8;
+	padding: 0px 20px;
 	text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 15px red;
 }
 
@@ -178,12 +180,14 @@ p {
 	}
 
 	.m-logo {
-		width: 11em;
+		width: 9em;
 	}
 }
 
 @media (max-width: 768px) {
-
+	.m-logo {
+		width: 7em;
+	}
 	.product,
 	.product img {
 		/* width: 50%; */
