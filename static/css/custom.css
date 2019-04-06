@@ -14,21 +14,21 @@
 }
 
 .m-logo {
-	width: 10em;
+	width: 15em;
 	height: auto;
-	opacity: .8;
+	opacity: .9;
 	z-index: 1;
 }
 .m-logo:hover {
 	/* border: 2px solid rgba(20, 240, 221, 0.6); */
 	/* border-radius: 90px; */
-	opacity: .99;
+	/* opacity: .99; */
 }
 .overlay {
 	position: absolute;
 	min-width: 100%;
 	min-height: 100%;
-	background-color: rgba(0, 0, 0, .6);
+	background-color: rgba(0, 0, 0, .4);
 }
 
 .vert-text {
@@ -153,7 +153,7 @@ p {
 /* ////////////////////////////////////////RESPONSIVE//////////////////////// */
 @media (max-width: 1280px) {
 	.siteTitle {
-		font-size: 7em;
+		font-size: 8em;
 	}
 }
 @media (max-width: 1024px) {
@@ -166,7 +166,7 @@ p {
 	}
 
 	.siteTitle {
-		font-size: 6.5em;
+		font-size: 7em;
 	}
 
 	p {
@@ -189,7 +189,7 @@ p {
 
 @media (max-width: 768px) {
 	.m-logo {
-		width: 7em;
+		width: 11em;
 	}
 	.product,
 	.product img {
@@ -200,12 +200,12 @@ p {
 	}
 
 	.siteTitle {
-		font-size: 4em;
+		font-size: 5em;
 		padding: 10px;
 	}
 
 	.description {
-		font-size: 2.5em;
+		font-size: 3em;
 	}
 }
 
@@ -257,7 +257,7 @@ p {
 	}
 
 	.m-logo {
-		width: 6em;
+		width: 9em;
 	}
 }
 
